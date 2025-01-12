@@ -1,8 +1,8 @@
 # Install necessary libraries
-# !pip install vnstock==0.2.9.2.3
-# !pip install openpyxl
-# !pip install adjustText
-# !pip install streamlitimport 
+!pip install vnstock==0.2.9.2.3
+!pip install openpyxl
+!pip install adjustText
+!pip install streamlitimport 
 import streamlit as st
 from vnstock import *
 import pandas as pd
