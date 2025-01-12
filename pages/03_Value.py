@@ -13,7 +13,7 @@ from datetime import datetime, timedelta
 import warnings
 warnings.filterwarnings('ignore')
 import concurrent.futures
-from tqdm.notebook import tqdm
+import tqdm
 
 
 
