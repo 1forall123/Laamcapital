@@ -57,7 +57,8 @@ def analyze_stock_data(index_name):
             return None, None
 
     with concurrent.futures.ThreadPoolExecutor() as executor:
-        results = list(executor.map(get_stock_data, ticker_list), total=len(ticker_list))
+        results =list(tqdm.tqdm(executor.map(get_stock_data, ticker_list), total=len(ticker_list)))
+
 
     # Kết hợp dữ liệu
     df = pd.concat([result[0] for result in results if result[0] is not None], ignore_index=True)
