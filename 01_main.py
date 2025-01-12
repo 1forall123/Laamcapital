@@ -8,12 +8,12 @@ st.sidebar.success("Trade your best")
 
 #page setup
 map = st.Page(
-    page= "C:/Users/ASUS/Desktop/Laam capital web/Lama/pages/02_Map.py",
+    page= "02_Map.py",
     title="Laam Capital Map"
 )
 
 value = st.Page(
-    page= "C:/Users/ASUS/Desktop/Laam capital web/Lama/pages/03_Value.py",
+    page= "03_Value.py",
     title="Laam Capital Value"
 )
 st.subheader("Chào mừng bạn đến với Laam Capital Dashboard")
