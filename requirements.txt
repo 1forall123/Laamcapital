@@ -1,5 +1,14 @@
 vnstock==0.2.9.2.3
-openpyxl
-adjustText
 streamlit
 beautifulsoup4
+requests
+pandas
+matplotlib
+seaborn
+adjustText
+tqdm
+vnstock==0.2.9.2.3
+numpy
+scikit-learn
+
+
