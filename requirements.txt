@@ -10,5 +10,5 @@ tqdm
 vnstock==0.2.9.2.3
 numpy
 scikit-learn
-
+ipython
 
