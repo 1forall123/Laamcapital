@@ -92,9 +92,9 @@ def plot_rs_vs_volume_change(merged_df):
         )
 
     # Display plot details
-    plt.xlabel('RS Rating')
-    plt.ylabel('Difference between MA20 and MA50 (%)')
-    plt.title('RS Rating vs. Volume Change Percentage (MA20 - MA50) with Zones')
+    plt.xlabel('Hướng giá')
+    plt.ylabel('Dòng tiền')
+    plt.title('Map')
     plt.grid(False)
     st.pyplot(plt)
 # Streamlit app
@@ -104,7 +104,7 @@ def main():
                'VNENE', 'VNFIN', 'VNHEAL', 'VNIND', 'VNIT', 'VNMAT', 'VNREAL', 'VNUTI']
     index_name = st.selectbox("Chọn chỉ số", indices)
     
-    if st.button("Xử lý"):
+    if st.button("Phân tích"):
         st.write(f"Chờ tí nhé: {index_name}")
         ticker_list = get_ticker_list(index_name)
         rs_df = calculate_rs_rating(ticker_list)
