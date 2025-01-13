@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import concurrent.futures
 from tqdm.notebook import tqdm
-st.write("Chỉ quan tâm phần xanh lá và tím")
+
 # Function to get ticker list based on index name
 def get_ticker_list(index_name):
     indices = ['VN30', 'VN100', 'VNMID', 'VNSML', 'HNX30', 'VNXALL', 'VNCOND', 'VNCONS',
@@ -90,7 +90,7 @@ def plot_rs_vs_volume_change(merged_df):
             fontsize=8,
             color='black',
         )
-
+st.write("Chỉ quan tâm phần xanh lá và tím")
     # Display plot details
     plt.xlabel('Hướng giá')
     plt.ylabel('Dòng tiền')
