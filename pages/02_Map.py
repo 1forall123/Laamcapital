@@ -96,7 +96,7 @@ def plot_rs_vs_volume_change(merged_df):
     plt.title('Map')
     plt.grid(False)
     st.pyplot(plt)
-st.write("Chỉ quan tâm phần xanh lá và tím")
+
 # Streamlit app
 def main():
     st.title("Laam Capital Map")
@@ -116,6 +116,6 @@ def main():
         merged_df = pd.merge(vol_diff_df, rs_df, on='ticker', how='inner').sort_values('diff_MA20_MA50_percent', ascending=False)
         plot_rs_vs_volume_change(merged_df)
         
-
+st.write("Chỉ quan tâm phần xanh lá và tím")
 if __name__ == "__main__":
     main()
