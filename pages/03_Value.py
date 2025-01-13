@@ -92,9 +92,9 @@ def analyze_stock_data(index_name):
     plt.axvline(x=5, color="g", linestyle="-")
     plt.axline([8, 8], [8, 10], color="g", linestyle="-")  # Đường xiên từ (8,8) đến (8,10)
     plt.axline((0, 4), (10, 10), color="blue", linestyle="--", label="y = 0.6x + 4")  # Đường
-    plt.xlabel("Volume Change Percentile")
-    plt.ylabel("PE Percentile")
-    plt.title(f"Phân tích PE vs. Volume ({index_name})")
+    plt.xlabel("Dòng tiền")
+    plt.ylabel("Định giá so sánh")
+    plt.title(f"Value table ({index_name})")
     st.pyplot(plt)
 
    
