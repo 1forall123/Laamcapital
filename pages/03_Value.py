@@ -21,7 +21,7 @@ import tqdm
 # Định nghĩa hàm chính cho trang
 def main():
     st.title("Định giá tương đối và dòng tiền")
-    st.markdown("Trang này thực hiện phân tích dữ liệu chứng khoán với tốc độ nhanh hơn.")
+    st.markdown("Nhìn các phân vùng giá trị để có kết hợp tốt nhất, thường sẽ nằm ở góc phải. Chú ý phân vùng tam giác và hình chữ nhật dưới")
 
     # Danh sách chỉ số
     index_options = ['VN30', 'VNMID', 'VN100', 'VNSML', 'HNX30', 'VNXALL']
