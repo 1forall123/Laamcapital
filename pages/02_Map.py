@@ -90,13 +90,13 @@ def plot_rs_vs_volume_change(merged_df):
             fontsize=8,
             color='black',
         )
-st.write("Chỉ quan tâm phần xanh lá và tím")
     # Display plot details
     plt.xlabel('Hướng giá')
     plt.ylabel('Dòng tiền')
     plt.title('Map')
     plt.grid(False)
     st.pyplot(plt)
+st.write("Chỉ quan tâm phần xanh lá và tím")
 # Streamlit app
 def main():
     st.title("Laam Capital Map")
