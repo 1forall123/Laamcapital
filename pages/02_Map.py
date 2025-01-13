@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import concurrent.futures
 from tqdm.notebook import tqdm
-
+st.write("Chỉ quan tâm phần xanh lá và tím")
 # Function to get ticker list based on index name
 def get_ticker_list(index_name):
     indices = ['VN30', 'VN100', 'VNMID', 'VNSML', 'HNX30', 'VNXALL', 'VNCOND', 'VNCONS',
