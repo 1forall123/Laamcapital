@@ -8,12 +8,12 @@ st.sidebar.success("Trade your best")
 
 #page setup
 map = st.Page(
-    page= "pages/02_Map.py",
+    page= "pages/02_Động lực thị trường.py",
     title="Laam Capital Map"
 )
 
 value = st.Page(
-    page= "pages/03_Value.py",
+    page= "pages/03_Tương quan định giá và dòng tiền.py",
     title="Laam Capital Value"
 )
 st.subheader("Chào mừng bạn đến với Laam Capital Dashboard")
