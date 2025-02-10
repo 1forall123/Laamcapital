@@ -87,7 +87,7 @@ def analyze_stock_data(index_name):
     for _, row in merged_df.iterrows():
         texts.append(plt.text(row["volume_change_percentile"], row["PE_percentile"], row["ticker"]))
 
-    adjust_text(texts, arrowprops=none)
+    adjust_text(texts, arrowprops=None)
     plt.axhline(y=4, color="g", linestyle="-")
     plt.axvline(x=5, color="g", linestyle="-")
     plt.axline([8, 8], [8, 10], color="g", linestyle="-")  # Đường xiên từ (8,8) đến (8,10)
