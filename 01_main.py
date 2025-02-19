@@ -23,5 +23,4 @@ st.write("Room zalo thông tin thị trường: https://zalo.me/g/lkbdik522")
 st.write("Kênh youtube: https://www.youtube.com/@Laamcapital")
 st.subheader("Đầu tư cùng Laam Capital")
 st.write("Tạo tài khoản forex: https://one.exnesstrack.org/a/l61iqtyq57")
-st.write("Tạo tài khoản chứng khoán:")
-st.image("qr.jpg", caption="Scan QR và làm theo hướng dẫn", width=400)
+
