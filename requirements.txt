@@ -12,3 +12,6 @@ numpy
 scikit-learn
 ipython
 iprogress
+streamlit
+cot_reports
+
