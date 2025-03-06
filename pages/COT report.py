@@ -255,7 +255,7 @@ def main():
     st.title("COT Report Viewer")
 
     # Sidebar select
-    year = st.sidebar.selectbox("Chọn năm", list(range(2000, 2026)), index=24)
+    year = st.sidebar.selectbox("Chọn năm", list(range(2000, 2026)), index=25)
     report_type = st.sidebar.selectbox("Chọn loại báo cáo", ["legacy_fut", "legacy_futopt", "disaggregated_fut", "disaggregated_futopt"])
 
     cot_dict = get_cot_report()
